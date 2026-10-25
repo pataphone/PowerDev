@@ -1,0 +1,24 @@
+{
+  "name": "ideas-bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Discord bot + HTTP API for collecting ideas, bug reports and notes in one place.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "register": "node register-commands.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
