@@ -5,7 +5,7 @@
   "description": "Discord bot + HTTP API for collecting ideas, bug reports and notes in one place.",
   "main": "index.js",
   "engines": {
-    "node": ">=22"
+    "node": "22.x"
   },
   "scripts": {
     "start": "node index.js",
